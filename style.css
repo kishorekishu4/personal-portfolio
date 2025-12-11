@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Section Titles */
+h2 {
+    color: #333;
+}
+
+/* About Section */
+#about, #projects, #skills, #contact {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Project Cards */
+.project-card {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 18px;
+}
